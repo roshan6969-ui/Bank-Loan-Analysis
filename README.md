@@ -1,16 +1,22 @@
-# 🏦 Bank Loan Analysis using Python
+# 📊 Bank Loan Analysis using Python
 
 ## 📌 Project Overview
 
-This project analyzes a bank loan dataset using Python to understand customer demographics, loan patterns, credit behavior, and relationships between financial variables. The project includes data cleaning, exploratory data analysis (EDA), and business insights that can support informed lending decisions.
+This project analyzes a bank loan dataset using *Python* to understand customer demographics, loan patterns, credit behavior, and relationships between financial variables.
+
+The project includes:
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Business Insights
+- Data Visualization
 
 ---
 
-## 📊 Dataset Information
+## 📂 Dataset Information
 
 - *Rows:* 50,000
 - *Columns:* 200
-- *Source:* Bank Loan Dataset
+- *Dataset:* Bank Loan Dataset
 
 ---
 
@@ -23,7 +29,7 @@ This project analyzes a bank loan dataset using Python to understand customer de
 
 ---
 
-## 📂 Project Workflow
+## 📈 Project Workflow
 
 1. Data Loading
 2. Data Understanding
@@ -34,46 +40,96 @@ This project analyzes a bank loan dataset using Python to understand customer de
 
 ---
 
-## 📈 Visualizations
+## 📊 Visualizations
 
-- Loan Amount Distribution (Histogram)
-- Gender Distribution (Bar Chart)
-- Loan Purpose Distribution (Bar Chart)
-- Credit Score Distribution (Histogram)
-- Annual Income vs Loan Amount (Scatter Plot)
-- Correlation Heatmap
+### 1. Loan Amount Distribution
+
+![Loan Amount Distribution](images/loan_amount_distribution.png)
+
+---
+
+### 2. Gender Distribution
+
+![Gender Distribution](images/gender_distribution.png)
+
+---
+
+### 3. Loan Purpose Distribution
+
+![Loan Purpose Distribution](images/loan_purpose_distribution.png)
+
+---
+
+### 4. Credit Score Distribution
+
+![Credit Score Distribution](images/credit_score_distribution.png)
+
+---
+
+### 5. Annual Income vs Loan Amount
+
+![Income vs Loan Amount](images/income_vs_loan_amount.png)
+
+---
+
+### 6. Correlation Heatmap
+
+![Correlation Heatmap](images/correlation_heatmap.png)
 
 ---
 
 ## 💡 Key Business Insights
 
-- Most applicants have moderate to good credit scores.
-- Home loans are the most common loan type.
-- Female applicants form the largest applicant group in this dataset.
-- Annual income alone does not determine the loan amount requested.
-- Most numerical variables have weak correlations with each other.
+- Loan amounts are distributed across different ranges, with a noticeable spike caused by median value imputation during data cleaning.
+- Female applicants represent the largest share of customers in this dataset.
+- Home loans are the most common loan purpose among applicants.
+- Most customers have moderate to good credit scores.
+- Annual income alone is not a strong predictor of loan amount.
+- Most numerical variables show weak correlations, indicating loan decisions should consider multiple factors.
 
 ---
 
 ## 📁 Project Structure
 
-text
-LOAN ANALYSIS/
+
+Bank-Loan-Analysis/
 │
-├── Bank dataset 2.csv
+├── images/
+│   ├── loan_amount_distribution.png
+│   ├── gender_distribution.png
+│   ├── loan_purpose_distribution.png
+│   ├── credit_score_distribution.png
+│   ├── income_vs_loan_amount.png
+│   └── correlation_heatmap.png
+│
 ├── bank_loan_analysis.ipynb
 ├── README.md
-├── requirements.txt
-└── images/
+└── requirements.txt
 
-## 🚀 Skills Demonstrated
 
-- Data Cleaning
-- Missing Value Handling
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Insight Generation
-- Python Programming
-- Pandas
-- Matplotlib
+---
+
+## ▶️ How to Run
+
+1. Clone this repository
+
+
+git clone https://github.com/roshan6969-ui/Bank-Loan-Analysis.git
+
+
+2. Install dependencies
+
+
+pip install -r requirements.txt
+
+
+3. Open
+
+
+bank_loan_analysis.ipynb
+
+
+4. Run all notebook cells.
+
+
 
