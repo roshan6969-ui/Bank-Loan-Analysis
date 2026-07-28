@@ -90,7 +90,7 @@ The project includes:
 ---
 ## 📁 Project Structure
 
-text
+```text
 Bank-Loan-Analysis/
 │
 ├── bank_loan_analysis.ipynb
@@ -104,7 +104,7 @@ Bank-Loan-Analysis/
     ├── credit_score_distribution.png
     ├── income_vs_loan_amount.png
     └── correlation_heatmap.png
----
+```
 
 ## ▶️ How to Run
 
