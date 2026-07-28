@@ -88,10 +88,9 @@ The project includes:
 - Most numerical variables show weak correlations, indicating loan decisions should consider multiple factors.
 
 ---
-
 ## 📁 Project Structure
 
-
+text
 Bank-Loan-Analysis/
 │
 ├── images/
@@ -100,12 +99,11 @@ Bank-Loan-Analysis/
 │   ├── loan_purpose_distribution.png
 │   ├── credit_score_distribution.png
 │   ├── income_vs_loan_amount.png
-│   └── correlation_heatmap.png
+│   ├── correlation_heatmap.png
 │
 ├── bank_loan_analysis.ipynb
 ├── README.md
 └── requirements.txt
-
 
 ---
 
