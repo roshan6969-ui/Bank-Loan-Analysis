@@ -90,21 +90,20 @@ The project includes:
 ---
 ## 📁 Project Structure
 
-text
+
 Bank-Loan-Analysis/
-│
-├── images/
-│   ├── loan_amount_distribution.png
-│   ├── gender_distribution.png
-│   ├── loan_purpose_distribution.png
-│   ├── credit_score_distribution.png
-│   ├── income_vs_loan_amount.png
-│   ├── correlation_heatmap.png
 │
 ├── bank_loan_analysis.ipynb
 ├── README.md
-└── requirements.txt
-
+├── requirements.txt
+│
+└── images/
+    ├── loan_amount_distribution.png
+    ├── gender_distribution.png
+    ├── loan_purpose_distribution.png
+    ├── credit_score_distribution.png
+    ├── income_vs_loan_amount.png
+    └── correlation_heatmap.png
 ---
 
 ## ▶️ How to Run
